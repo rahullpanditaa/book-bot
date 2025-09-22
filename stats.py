@@ -1,5 +1,5 @@
 def number_of_words(book_text):
-    return f"{len(book_text.split())} words found in the document"
+    return len(book_text.split())
 
 def count_characters(text):
     characters = {}
